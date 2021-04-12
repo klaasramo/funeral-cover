@@ -1,0 +1,159 @@
+
+/*Desktop*/
+@media only screen and (min-width: 1123px ) {
+  .header-mobile {
+    display: none;
+  }
+}
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+  .full-width-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.input-field {
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+}
+  .logo-container > a > img {
+    width: 180px;
+  }
+  .header-mobile {
+    display: flex;
+  }
+  #main-menu {
+    display: none;
+  }
+  .ham {
+  position: absolute;
+  z-index: 100;
+  top: auto;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background: #323a45;
+  cursor: pointer;
+}
+.material-icons {
+    color: #097ec1;
+}
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: #323a45;
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+}
+.slider-content-container {
+    width: 100%;
+}
+.about-container {
+    display: block;
+    justify-content: space-between;
+    padding: 30px 10px 50px;
+}
+.about-content {
+    max-width: 100%;
+}
+.image-container {
+    width: 100%;
+    max-width: none;
+}
+.feature-list {
+    display: block;
+}
+.feature-item {
+    flex-wrap: unset;
+    margin-top: 20px;
+    padding-right: 20px;
+    float: left;
+}
+.feature-item > .image-box {
+    min-height: 200px;
+}
+.claims-container {
+  display: block ;
+}
+.claims-form {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 25px;
+}
+.newsletter-container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footer-columns {
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.contact-info {
+  margin-top: 20px;
+}
+.social-controller {
+  width: 100%;
+  display: block;
+}
+.fb_iframe_widget_fluid {
+  display: none !important;
+}
+}
+/*Tablet*/
+@media only screen and (min-width: 600px ) and (max-width: 1122px){
+  .header-mobile {
+    display: none;
+  }
+  .full-width-header,
+  .full-width-container,
+  .full-width-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .newsletter-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .claims-input {
+    width: -webkit-fill-available;
+  }
+  .input-field,
+  input {
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+}

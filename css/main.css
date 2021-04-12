@@ -1,0 +1,332 @@
+body, p, div, header, footer, ul, li, section, a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial";
+  font-size: 3em;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial";
+  font-weight: normal;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial";
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #097EC1;
+}
+#container {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  font-family: "Arial";
+}
+.full-width-header {
+  width: 100%;
+  background-color: #323A45;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.full-width-footer {
+  width: 100%;
+  background-color: #323A45;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.full-width-container {
+  width: 100%;
+  display: flex;
+}
+.boxed-width-container {
+  width: 1124px;
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content:space-between;
+}
+.default-button {
+  background-color: #097EC1;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: solid 2px #097EC1;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.border-button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: solid 2px #ffffff;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.darkgrey-button {
+  background-color: #323A45;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.input-field {
+  padding: 10px;
+  border: solid 1px #3E6A8D;
+  border-radius: 7px;
+  flex-wrap: nowrap;
+}
+.menu-list {
+  display: inline-flex;
+  align-content: center;
+  padding: 25px 0;
+}
+.menu-item {
+  align-items: center;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+.menu-item > a {
+  color: #bbbbbb;
+}
+.slider-section {
+  background-image: url("../images/Slider.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+.slider-content-container {
+  width: 45%;
+  display: block;
+  justify-content: flex-start;
+}
+.page-title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.subtitle {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slider-content-container > p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.button-items {
+  display: flex;
+  max-width: 100%;
+  align-content: flex-start;
+}
+.button-item {
+  padding-right: 20px;
+}
+.get-quote-form-section {
+  margin-top: -30px;
+}
+.get-quote-form-container {
+  background-color: #097EC1;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+.get-quote-form-controller {
+  display: flex;
+  max-width: 100%;
+  align-content: center;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 50px;
+}
+.about-content {
+  max-width: 50%;
+  padding-right: 20px;
+}
+.image-container {
+  width: 50%;
+  max-width: 50%;
+  margin-top: 20px;
+}
+.curly-radius-image {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-top: 450px;
+  background-image: url("../images/father-daughter-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.features-section {
+  background-color: #f7f7f7;
+  padding: 30px 0 50px;
+}
+.features-controller {
+  display: block;
+}
+.features-section > div > h2 {
+  display: block;
+}
+.features-container {
+  width: 100%;
+  display: block;
+}
+.feature-list {
+  display: flex;
+  max-width: 100%;
+}
+.feature-item {
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.feature-item > .image-box {
+  width: 150px;
+  padding: 15px;
+  justify-content: center;
+  background-color: #ffffff;
+  border: solid 1px #707070;
+  border-radius: 7px;
+  min-height: 160px;
+  text-align: center;
+}
+.feature-item > .image-box > img {
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.curly-radius-image02 {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-top: 450px;
+  background-image: url("../images/happy-family.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.claims-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 50px;
+}
+.claims-form {
+  width: 50%;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 90px;
+}
+.claims-input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.gadgets-section {
+  background-color: #f7f7f7;
+  padding: 30px 0 50px;
+}
+.gadgets-container {
+  width: 100%;
+  text-align: center;
+}
+.newsletter-section {
+  background-image: url("../images/Slider02.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 60px;
+}
+.newsletter-container {
+  background-color: #097EC1;
+  opacity: 0.9;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 7px;
+}
+.newsletter-container > h2,
+.newsletter-container > p {
+  color: #ffffff;
+}
+.newsletter-form {
+  margin-top: 20px;
+}
+.quick-links-container {
+  width: 100%;
+  padding-right: 20px;
+}
+.footer-heading {
+  border-bottom: solid 1px #707070;
+  margin-bottom: 10px;
+}
+.footer-heading > h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer-menu-lists {
+  display: flex;
+}
+.footer-menu-list {
+  flex-wrap: wrap;
+  padding-right: 60px;
+}
+.footer-menu-list > li {
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+.footer-contact-menu > ul > li {
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+}
+.footer-contact-menu > ul > li > img {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+.social-section {
+  background-color: #323A45;
+}
+.social-container {
+  width: 100%;
+  padding: 15px 0 10px;
+  border-top: solid 1px #707070;
+  border-bottom: solid 1px #707070;
+}
+.social-links {
+  display: flex;
+}
+.social-links > li {
+  flex-wrap: wrap;
+  margin-right: 20px;
+  color: #ffffff !important;
+}
+.social-links > li > img {
+  width: 20px;
+}
+.copyright-section {
+  padding: 10px 0 50px;
+  background-color: #323A45;
+}
+.copyright-container > p {
+  color: #ffffff;
+  font-size: 0.7em;
+}
